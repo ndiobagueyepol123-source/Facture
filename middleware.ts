@@ -40,7 +40,7 @@ export async function middleware(request: NextRequest) {
           remove(name: string, options: CookieOptions) {
             request.cookies.set({
               name,
-              value,
+              value: '',
               ...options,
             })
             supabaseResponse = NextResponse.next({
@@ -50,7 +50,7 @@ export async function middleware(request: NextRequest) {
             })
             supabaseResponse.cookies.set({
               name,
-              value,
+              value: '',
               ...options,
             })
           },
