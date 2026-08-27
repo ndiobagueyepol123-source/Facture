@@ -41,7 +41,7 @@ export const AppLayoutWrapper: React.FC<{ children: React.ReactNode }> = ({ chil
           {children}
         </main>
         <footer className="no-print py-6 px-8 border-t border-slate-200/60 bg-white/50 flex flex-col sm:flex-row items-center justify-between text-xs text-slate-400">
-          <p>© 2026 FacturAfric Solutions SARL — Tous droits réservés.</p>
+          <p>© 2026 Vendo Solutions — Tous droits réservés.</p>
           <div className="flex items-center space-x-6 mt-2 sm:mt-0 font-medium">
             <a href="#" className="hover:text-slate-600 transition-colors">Sécurité RLS & SSL</a>
             <a href="#" className="hover:text-slate-600 transition-colors">Conditions Générales</a>

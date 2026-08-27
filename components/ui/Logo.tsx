@@ -109,7 +109,7 @@ export const Logo: React.FC<LogoProps> = ({ className, showText = true, size = '
       
       {showText && (
         <span className={cn("font-extrabold text-slate-900 tracking-tight", brand)}>
-          Van<span className="text-blue-600">do</span>
+          Ven<span className="text-blue-600">do</span>
         </span>
       )}
     </div>

@@ -7,7 +7,7 @@ import { CurrencyProvider } from "@/providers/CurrencyProvider";
 const inter = Inter({ subsets: ["latin"], weight: ["400", "500", "600", "700", "800", "900"] });
 
 export const metadata: Metadata = {
-  title: "Vando — Caisse enregistreuse simple",
+  title: "Vendo — Caisse enregistreuse simple",
   description: "Enregistrez vos ventes et générez vos reçus en toute simplicité.",
 };
 
